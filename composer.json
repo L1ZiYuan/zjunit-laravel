@@ -1,0 +1,24 @@
+{
+    "name": "lzy\/zjunit-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lzy",
+            "email": "L1_ZiYuan@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lzy\\ZJunitLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Lzy\\ZJunitLaravel\\Providers\\ZJunitServiceProvider"
+            ]
+        }
+    }
+}
